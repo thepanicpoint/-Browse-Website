@@ -1,10 +1,14 @@
 
 body, html {
-  background-color: rgb(237, 235, 240);
+  background-color: #d5eafc;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;  */
 }
 
 body, p, input, select, textarea, button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Joan', serif;
+font-family: 'Roboto', sans-serif;
   letter-spacing: -0.1px;
   font-size: 16px;
 }
@@ -12,12 +16,30 @@ body, p, input, select, textarea, button {
 div, p {
   color: rgb(204, 193, 186);
   text-shadow: 1px 1px 1px #FFF;
+  
 }
 
 form {
   padding: 10px;
   width: 320px;
   margin: 0 auto;
+  
+}
+
+.container {
+    top: 46%;
+  left: 50%;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+    background-color: #fafafe;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 25px 20px 10px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+    width: 420px;
+    height: auto;
+    box-sizing: border-box;
+   
 }
 
 .segment {
@@ -28,9 +50,17 @@ form {
 }
 
 .segment h1{
-  font-size: 2em;
+  /* font-size: 2.3em;
   font-weight: 400;
-  color: #1b7374;
+  color: #FFE69A; */
+  color: #515a6e;
+  -webkit-box-align: center;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
  
 button, input {
@@ -45,9 +75,10 @@ button, input {
 
 .my1{
   display: block;
+  border-radius: 15px;
   margin-bottom: 24px;
   width: 100%;
-  background-color: rgb(240, 235, 235);
+  background-color: rgb(238, 240, 235);
 }
 
 .my2{
@@ -60,7 +91,7 @@ button, input {
   -webkit-appearance: none;
 }
 
-button {
+/* button {
   color: #61677C;
   font-weight: bold;
   box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
@@ -95,6 +126,38 @@ button.red {
   display: block;
   width: 100%;
   color: rgb(0, 165, 174);
+} */
+
+button.red{
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    color: #fff;
+    background: linear-gradient(#ff6100, #ff5050);
+    box-shadow: 0 2px 12px -3px #ff5050;
+    -moz-animation: btn 6s 3s infinite ease-in-out;
+    -webkit-animation: btn 6s 3s infinite ease-in-out;
+    animation: btn 6s 3s infinite ease-in-out;
+    opacity: 0.9;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 
+
+.subheader {
+  color: #515a6e;
+}
+
+#options {
+    color: #515a6e;
+    padding-right: 30px;
+}
