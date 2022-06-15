@@ -161,3 +161,7 @@ button.red{
     color: #515a6e;
     padding-right: 30px;
 }
+
+#number {
+  width: 10em;
+}
