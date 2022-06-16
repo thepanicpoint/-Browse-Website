@@ -1,6 +1,6 @@
 
-var countDownDate = new Date("July 10, 2021 08:00:00").getTime();
-var countDownDate1 = new Date("July 19, 2021 18:00:00").getTime();
+var countDownDate = new Date("June 16, 2022 08:00:00").getTime();
+var countDownDate1 = new Date("JUl 2, 2022 18:00:00").getTime();
 
 var x = setInterval(function () {
 
